@@ -1,0 +1,21 @@
+server:
+  port: 8080
+
+logging:
+  level:
+    root: INFO
+    org.springframework.web: INFO
+    org.springframework.security: INFO
+#    org.springframework.boot.autoconfigure: DEBUG
+
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 941267338220-nv42uhfak9jp8skr3ir76mpanub9g444.apps.googleusercontent.com
+            client-secret: LnZqOM_3vU-tnXg1emoVISrM
+          facebook:
+            client-id: 289558572596393
+            client-secret: 36ca4671280100bd34e438f175bffefd
